@@ -1,0 +1,7 @@
+{
+  "id": "visualizations",
+  "version": "kibana",
+  "server": false,
+  "ui": true,
+  "requiredPlugins": ["data", "expressions", "uiActions", "embeddable", "usageCollection"]
+}

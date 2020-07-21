@@ -1,0 +1,16 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "types": [
+      "mocha",
+      "node"
+    ]
+  },
+  "include": [
+    "**/*",
+    "../typings/**/*"
+  ],
+  "exclude": [
+    "../typings/jest.d.ts"
+  ]
+}

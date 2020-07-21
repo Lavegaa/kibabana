@@ -1,0 +1,11 @@
+{
+  "id": "data",
+  "version": "kibana",
+  "server": true,
+  "ui": true,
+  "requiredPlugins": [
+    "expressions",
+    "uiActions"
+  ],
+  "optionalPlugins": ["usageCollection"]
+}
